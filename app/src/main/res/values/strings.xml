@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AnimatedTypeWriteTextView</string>
+    <string name="text1">Welcome to Hello World!!</string>
+</resources>
