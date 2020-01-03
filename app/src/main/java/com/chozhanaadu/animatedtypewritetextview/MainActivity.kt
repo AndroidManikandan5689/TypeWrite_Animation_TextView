@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
         textView1 = findViewById(R.id.tv_text1);
         textView2 = findViewById(R.id.tv_text2);
 
+        textView2.setCharDelay(500)
         textView1.animateText(getString(R.string.text1))
 
-        textView2.setCharDelay(500)
         textView2.animateText(getString(R.string.text1))
     }
 }
